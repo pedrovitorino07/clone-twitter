@@ -104,6 +104,7 @@ export const MenuButton = styled.button`
   &:hover {
     background: var(--twitter-dark-hover);
   }
+
   &:hover,
   &.active {
     span,
@@ -114,7 +115,7 @@ export const MenuButton = styled.button`
   }
 `;
 
-const IconsCSS = css`
+const iconCSS = css`
   flex-shrink: 0;
 
   width: 30px;
@@ -123,23 +124,19 @@ const IconsCSS = css`
 `;
 
 export const HomeIcon = styled(Home)`
-  ${IconsCSS}
+  ${iconCSS}
 `;
-
 export const BellIcon = styled(Notifications)`
-  ${IconsCSS}
+  ${iconCSS}
 `;
-
 export const EmailIcon = styled(Email)`
-  ${IconsCSS}
+  ${iconCSS}
 `;
-
 export const FavoriteIcon = styled(FavoriteBorder)`
-  ${IconsCSS}
+  ${iconCSS}
 `;
-
 export const ProfileIcon = styled(Person)`
-  ${IconsCSS}
+  ${iconCSS}
 `;
 
 export const Botside = styled.div`
